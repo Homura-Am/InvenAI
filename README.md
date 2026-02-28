@@ -1,11 +1,27 @@
+# InvenAI
 
-  # SaaS AI Inventory Dashboard
+AI-powered inventory management system using Google Gemini. Built for KitaHack 2026.
 
-  This is a code bundle for SaaS AI Inventory Dashboard. The original project is available at https://www.figma.com/design/EJ5NiFQOJi3PTByJhivcaN/SaaS-AI-Inventory-Dashboard.
+## Setup Instructions
 
-  ## Running the code
+### 1. Prerequisites
+* Node.js and npm installed.
 
-  Run `npm i` to install the dependencies.
+### 2. Clone Repository
+git clone https://github.com/Homura-Am/InvenAI.git
+cd InvenAI
 
-  Run `npm run dev` to start the development server.
-  
+### 3. Environment Setup
+Create a .env file in the root directory and add your Google Gemini API key:
+GEMINI_API_KEY=your_api_key_here
+
+### 4. Run the App
+Navigate to the server folder, install dependencies, and start the backend:
+cd server
+npm install
+npm start
+
+Open a new terminal, navigate to the client folder, install dependencies, and start the frontend:
+cd ../client
+npm install
+npm run dev
